@@ -38,7 +38,7 @@
            revision="7ea45a3b7153dc0228da25fa14df3191538816ff"
            upstream="dec-scarthgap-6.6"/>
   <project remote="dec" name="meta-dec-stm32"  path="layers/meta-dec-stm32"
-           revision="24b84382fc464db8b39ed006f3e0e9486416a397"
+           revision="b74f1603e343b15670f14394fbb4203df95f449f"
            upstream="main">
     <linkfile src="scripts/setup_dec_stm32.sh" dest="setup_dec_stm32.sh"/>
   </project>
