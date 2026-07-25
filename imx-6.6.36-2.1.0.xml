@@ -45,7 +45,7 @@
 
   <project remote="dec" name="meta-dec-common" path="sources/meta-dec-common" revision="7ea45a3b7153dc0228da25fa14df3191538816ff" upstream="dec-scarthgap-6.6">
   </project>
-  <project remote="dec" name="meta-dec-nxp" path="sources/meta-dec-nxp" revision="aea98befdb5cb56e79f9cb70b3a6468e823cee41" upstream="dec-scarthgap-6.6">
+  <project remote="dec" name="meta-dec-nxp" path="sources/meta-dec-nxp" revision="decc1c2cafbc25d8eaf8b66dda04190ba47681a6" upstream="dec-scarthgap-6.6">
   <linkfile src="setup_dec.sh" dest="setup_dec.sh"/>
   </project>
 
