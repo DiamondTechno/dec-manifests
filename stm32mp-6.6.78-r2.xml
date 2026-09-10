@@ -35,11 +35,11 @@
     STM32MP25-DEC-specific BSP plumbing lives in meta-dec-stm32.
   -->
   <project remote="dec" name="meta-dec-common" path="layers/meta-dec-common"
-           revision="7ea45a3b7153dc0228da25fa14df3191538816ff"
+           revision="f246ae1709cadc1e39657160409b48d52e711cca"
            upstream="dec-scarthgap-6.6"/>
   <project remote="dec" name="meta-dec-stm32"  path="layers/meta-dec-stm32"
-           revision="b74f1603e343b15670f14394fbb4203df95f449f"
-           upstream="main">
+           revision="55592cc6cc44ac2e65168b425930a2929c0db4f1"
+           upstream="backport/cargt-f80cb6b">
     <linkfile src="scripts/setup_dec_stm32.sh" dest="setup_dec_stm32.sh"/>
   </project>
 
@@ -51,8 +51,8 @@
     locations as ${TOPDIR}/../sources/{linux-stm32,uboot-stm32}.
   -->
   <project remote="dec" name="linux-stm32"  path="sources/linux-stm32"
-           revision="ad52170a1950baaebbe56e0c693468dee60cae7a"
-           upstream="stm32mp-dec-kit"/>
+           revision="fb393e89e32918f1efe0b73945b84eb63d672617"
+           upstream="backport/cargt-f80cb6b"/>
   <project remote="dec" name="u-boot-stm32" path="sources/uboot-stm32"
            revision="4efd8a64b54b46811c1583d0f7df2b6aaf199e7a"
            upstream="stm32mp-dec-kit"/>
