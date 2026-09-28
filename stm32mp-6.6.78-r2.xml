@@ -51,7 +51,7 @@
     locations as ${TOPDIR}/../sources/{linux-stm32,uboot-stm32}.
   -->
   <project remote="dec" name="linux-stm32"  path="sources/linux-stm32"
-           revision="b2719abfb82e7bd80f3e5e658986fd23a4d28984"
+           revision="47ee3b4a443745062d4c690f710e9df83ebaeb65"
            upstream="backport/cargt-f80cb6b"/>
   <project remote="dec" name="u-boot-stm32" path="sources/uboot-stm32"
            revision="4efd8a64b54b46811c1583d0f7df2b6aaf199e7a"
