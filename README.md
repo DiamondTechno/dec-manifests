@@ -192,7 +192,7 @@ bitbake dec-image-full
 |---|---|---|
 | meta-dec-common | https://github.com/DiamondTechno/meta-dec-common | dec-scarthgap-6.6 |
 | meta-dec-stm32 | https://github.com/DiamondTechno/meta-dec-stm32 | main |
-| Linux kernel | https://github.com/DiamondTechno/linux-stm32 | stm32mp-dec-kit |
+| Linux kernel | https://github.com/DiamondTechno/linux-stm32 | main |
 | U-Boot | https://github.com/DiamondTechno/u-boot-stm32 | stm32mp-dec-kit |
 | ST OpenSTLinux layers | https://github.com/STMicroelectronics/{meta-st-openstlinux,meta-st-stm32mp,meta-st-stm32mp-addons,meta-st-scripts} | (pinned SRCREV) |
 

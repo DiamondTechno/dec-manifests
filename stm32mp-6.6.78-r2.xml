@@ -38,8 +38,8 @@
            revision="f246ae1709cadc1e39657160409b48d52e711cca"
            upstream="dec-scarthgap-6.6"/>
   <project remote="dec" name="meta-dec-stm32"  path="layers/meta-dec-stm32"
-           revision="ccaab1a86467b21ddac4df1f09dff073fc572694"
-           upstream="backport/cargt-f80cb6b">
+           revision="46d66e2053c12705042633b53dd749f54d556514"
+           upstream="main">
     <linkfile src="scripts/setup_dec_stm32.sh" dest="setup_dec_stm32.sh"/>
   </project>
 
@@ -51,8 +51,8 @@
     locations as ${TOPDIR}/../sources/{linux-stm32,uboot-stm32}.
   -->
   <project remote="dec" name="linux-stm32"  path="sources/linux-stm32"
-           revision="47ee3b4a443745062d4c690f710e9df83ebaeb65"
-           upstream="backport/cargt-f80cb6b"/>
+           revision="61b5e6db3ace5ef36ee285032472dcab1a06f690"
+           upstream="main"/>
   <project remote="dec" name="u-boot-stm32" path="sources/uboot-stm32"
            revision="4efd8a64b54b46811c1583d0f7df2b6aaf199e7a"
            upstream="stm32mp-dec-kit"/>
